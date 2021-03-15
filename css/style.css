@@ -15,6 +15,8 @@
   width: 85%;
   height: 100vh;
   margin: 150px 150px 0px 450px;
+  transition:1s ease-in-out;
+
 }
 
 .container h3 {
@@ -22,6 +24,8 @@
   font-size: 38px;
   letter-spacing: 1px;
   font-weight: bold;
+  transition:1s ease-in-out;
+
 }
 
 .container p {
@@ -30,6 +34,8 @@
   letter-spacing: 0.5px;
   font-weight: lighter;
   color: #2951ac;
+  transition:1s ease-in-out;
+
 }
 
 .taskContainer {
@@ -38,6 +44,8 @@
   display: flex;
   margin-bottom: 100px;
   flex-direction: row;
+  transition:1s ease-in-out;
+
 }
 
 .taskContainer input {
@@ -52,8 +60,11 @@
   padding-left: 20px;
   color: black;
   margin-top: 40px;
+  transition:1s ease-in-out;
+
   margin-left: 250px;
 }
+
 
 .taskContainer button {
   font-family: "Poppins", sans-serif;
@@ -69,23 +80,35 @@
   font-weight: bold;
   padding: 0px;
   margin-top: 40px;
+  transition:1s ease-in-out;
+
 }
 
 #todos {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  transition:1s ease-in-out;
+
+
+
+  
 }
 
 .dateContainer {
   width: 50px;
   height: 50px;
+  padding-top: 45px;
   margin-right: 150px;
+  transition:1s ease-in-out;
+
+
+
 }
 .dateContainer p {
   text-align: center;
   font-weight: bold;
+  transition:1s ease-in-out;
+
 }
 
 .todoContainer {
@@ -95,9 +118,10 @@
   display: flex;
   flex-direction: row;
   border-radius: 10px;
-  margin-left: 40px;
-  margin-top: 40px;
+  margin-left: 100px;
   padding: 10px;
+  transition:1s ease-in-out;
+
 }
 
 .todoContainer p {
@@ -105,6 +129,8 @@
   margin-left: 20px;
   font-weight: bold;
   color: black;
+  transition:0.5s ease;
+
 }
 
 span {
@@ -120,4 +146,45 @@ img {
 }
 img:hover {
   cursor: pointer;
+}
+
+.imgBtn{
+  background-color:transparent;
+  border: none;
+  outline: none;
+  transition:0.5s ease;
+
+}
+@media only screen and (min-width: 1366px)
+{
+  .container {
+    margin: 100px 50px 0px 200px;
+  }
+
+
+.taskContainer input {
+  font-size: 16px;
+  padding-left: 20px;
+  color: black;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.todoContainer p
+{
+  font-size: 16px;
+}
+.dateContainer p
+{
+  font-size:16px;
+  margin-top: 20px;
+}
+.container p {
+  font-size:16px;
+}
+.container h3
+{
+  font-size:20px;
+}
+
 }
